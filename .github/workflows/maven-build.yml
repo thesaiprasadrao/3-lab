@@ -22,4 +22,4 @@ jobs:
         run: mvn compile
 
       - name: Run the App
-        run: java HelloWorld
+        run: java -cp target/classes HelloWorld
